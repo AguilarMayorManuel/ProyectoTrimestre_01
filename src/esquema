@@ -1,0 +1,70 @@
+db.moviles.insertMany(
+    [        
+        {
+            modelo:"", 
+             _id:,
+             compañia:"",
+             pais:"",
+             precio: , uom:"euro",
+             fechalanzamiento: new Date(""),
+             diseño: 
+                     {
+                         ancho:, alto:, grosor:, uom:"", 
+                         peso:, uom:"",
+                         materiales:[], 
+                         huelladactilar: , 
+                         colores:[]
+                     },
+             pantalla: 
+                     {
+                         tamaño: , uom:"", 
+                         tipopantalla:"",
+                         tasarefresco: , uom:""
+                     },
+            audio:
+                    [],
+             software: 
+                     {
+                         sitemaoperativo: "",
+                     },
+             hardware: 
+                    procesador:
+                        {
+                            modelo:"",
+                            nucleos:,
+                            frecuencia:, uom:""
+                        }, 
+                        almacenamiento:
+                        {
+                            memoriaram:, memoriainterna: [], uom:""
+                        },
+                        graficos:""
+                    },
+             camara: 
+                     {
+                         principal: 
+                             {resolución:, apertura: }, 
+                         dual:
+                             {resolución:, apertura:}, 
+                         frontal:
+                             {resolucion:, apertura:}, 
+                         uom:
+                             {resolucion:"", apertura:""}
+                     },
+             bateria:
+                     {
+                         capacidad:, uom:"", 
+                         extraible:, cargarapida:, cargainalambrica:
+                     },
+             conectividad:
+                     {
+                         bandas:[]
+                         nfc:, 
+                         bluetooth:"", 
+                         wifi:[], uom: "", 
+                         tipousb:"", 
+                         audiojack:, 
+                         tarjetasim: 
+                             {tipo:"", dualsim: }
+                     }
+         },
