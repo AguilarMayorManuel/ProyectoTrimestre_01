@@ -5,7 +5,7 @@ db.moviles.insertMany(
              _id:,
              compañia:"",
              pais:"",
-             precio: , uom:"euro",
+             precio: , divisa:"euro",
              fechalanzamiento: new Date(""),
              diseño: 
                      {
@@ -21,50 +21,47 @@ db.moviles.insertMany(
                          tipopantalla:"",
                          tasarefresco: , uom:""
                      },
-            audio:
-                    [],
-             software: 
-                     {
-                         sitemaoperativo: "",
-                     },
-             hardware: 
+            audio:[],
+            sitemaoperativo: "",
+            hardware:
+                { 
                     procesador:
                         {
                             modelo:"",
                             nucleos:,
                             frecuencia:, uom:""
                         }, 
-                        almacenamiento:
+                    almacenamiento:
                         {
                             memoriaram:, memoriainterna: [], uom:""
                         },
-                        graficos:""
-                    },
-             camara: 
-                     {
-                         principal: 
-                             {resolución:, apertura: }, 
-                         dual:
-                             {resolución:, apertura:}, 
-                         frontal:
-                             {resolucion:, apertura:}, 
-                         uom:
-                             {resolucion:"", apertura:""}
-                     },
-             bateria:
-                     {
-                         capacidad:, uom:"", 
-                         extraible:, cargarapida:, cargainalambrica:
-                     },
-             conectividad:
-                     {
-                         bandas:[]
-                         nfc:, 
-                         bluetooth:"", 
-                         wifi:[], uom: "", 
-                         tipousb:"", 
-                         audiojack:, 
-                         tarjetasim: 
-                             {tipo:"", dualsim: }
-                     }
-         },
+                    gpu:"",
+                    camara: 
+                        {
+                            principal: 
+                                {resolución:, apertura: }, 
+                            dual:
+                                {resolución:, apertura:}, 
+                            frontal:
+                                {resolucion:, apertura:}, 
+                            uom:
+                                {resolucion:"", apertura:""}
+                        },
+                    bateria:
+                        {
+                            capacidad:, uom:"", 
+                            extraible:, cargarapida:, cargainalambrica:
+                        },
+                },
+            conectividad:
+                {
+                    banda:[]
+                    nfc:, 
+                    bluetooth:"", 
+                    wifi:[], uom: "", 
+                    tipousb:"", 
+                    audiojack:, 
+                    tarjetasim: 
+                    {tipo:"", dualsim: }
+            }
+        },
