@@ -1,67 +1,15 @@
 db.moviles.insertMany(
     [        
-        {
-            modelo:"", 
-             _id:,
-             compañia:"",
-             pais:"",
-             precio: , divisa:"euro",
-             fechalanzamiento: new Date(""),
-             diseño: 
-                     {
-                         ancho:, alto:, grosor:, uom:"", 
-                         peso:, uom:"",
-                         materiales:[], 
-                         huelladactilar: , 
-                         colores:[]
-                     },
-             pantalla: 
-                     {
-                         tamaño: , uom:"", 
-                         tipopantalla:"",
-                         tasarefresco: , uom:""
-                     },
-            audio:[],
-            sitemaoperativo: "",
-            hardware:
-                { 
-                    procesador:
-                        {
-                            modelo:"",
-                            nucleos:,
-                            frecuencia:, uom:""
-                        }, 
-                    almacenamiento:
-                        {
-                            memoriaram:, memoriainterna: [], uom:""
-                        },
-                    gpu:"",
-                    camara: 
-                        {
-                            principal: 
-                                {resolución:, apertura: }, 
-                            dual:
-                                {resolución:, apertura:}, 
-                            frontal:
-                                {resolucion:, apertura:}, 
-                            uom:
-                                {resolucion:"", apertura:""}
-                        },
-                    bateria:
-                        {
-                            capacidad:, uom:"", 
-                            extraible:, cargarapida:, cargainalambrica:
-                        },
-                },
-            conectividad:
-                {
-                    banda:[]
-                    nfc:, 
-                    bluetooth:"", 
-                    wifi:[], uom: "", 
-                    tipousb:"", 
-                    audiojack:, 
-                    tarjetasim: 
-                    {tipo:"", dualsim: }
-            }
-        },
+        {modelo:"", _id:, compañia:"", pais:"",precio:[] , divisa:"euro",fechalanzamiento: new Date(""),diseño:{ancho:, alto:, grosor:, uom:"milimetro",peso:, uom:"gramo",materiales:[], huelladactilar: , colores:[]},pantalla:{pulgadas:"",tipopantalla:""},audio:[],sitemaoperativo: "",hardware:{ procesador:{modelo:"",nucleos:,frecuencia:, uom:"gigahercio"},almacenamiento:{memoriaram:, memoriainterna: [], uom:"gigabyte"},gpu:"",camara:{principal:{resolución:, apertura: },dual:,caracteristicasdual:{resolución:, apertura:},frontal:{resolucion:, apertura:},uom:{resolucion:"megapixel", apertura:"diafragma"}},bateria:{capacidad:, uom:"mega-amperio",extraible:, cargarapida:, cargainalambrica:},},conectividad:{banda:[]nfc:, bluetooth:"",tipousb:"",audiojack:,}},
+        
+        
+Lista de moviles:
+-Huawei P50
+-Redmi Note 10S
+-Alcatel 3 (2019)
+-Apple iPhone 13 Pro Max
+-iPhone
+-Google Pixel
+-Samsung
+-LG
+-Samsung
